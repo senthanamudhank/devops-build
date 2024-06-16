@@ -3,7 +3,7 @@ pipeline {
     agent any
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('senthanamudhan2503-dockerhub')
-        DOCKER_REPO = 'senthanamudhan2503/dev'
+        DOCKER_REPO = 'senthanamudhan2503/prod'
     }
     stages {
         stage('Checkout') {
