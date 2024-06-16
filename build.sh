@@ -1,4 +1,3 @@
 #!/bin/bash
 
-# Build the Docker image
-docker build -t my-react-app:latest .
+docker build -t senthanamudhan2503/devops-build:latest .
